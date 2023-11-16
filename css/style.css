@@ -11,8 +11,8 @@
 }
 
 .content{
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .relative {
@@ -35,4 +35,17 @@
 .skill:hover p {
     color: white;
 }
+
+.fadeIn{
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+} 
 

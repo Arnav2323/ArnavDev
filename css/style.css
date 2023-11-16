@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto';
+}
+
 .projectCard img{
     display: block;
     margin-left: auto;
@@ -14,3 +18,21 @@
 .relative {
     position: relative;
 }   
+
+#skillsTable img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    max-width: 100%;
+}
+
+.skill:hover img {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.skill:hover p {
+    color: white;
+}
+

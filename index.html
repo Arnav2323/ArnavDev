@@ -12,22 +12,22 @@
 </head>
 <body data-bs-theme="dark">
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand text-muted display-3">Arnav.Dev</a>
+            <a href="./index.html" class="text-primary navbar-brand display-3">Arnav.Dev</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navibar" aria-controls="navibar" 
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
-            <div class="collapse navbar-collapse" id="navibar">
+            <div class="collapse navbar-collapse fs-5" id="navibar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="Home" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="Home" href="./index.html">Home</a>
                     </li>
     
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="About me" href="#about">About</a>
+                        <a class="nav-link active" aria-current="About me" href="./about.html">About</a>
                     </li>
     
                     <li class="nav-item">
@@ -39,7 +39,7 @@
     </nav>
 
     <!-- Welcome/Home area -->
-    <section class="content my-5 mx-2" id="home">
+    <section class="content" style="margin-top: 5%;" id="home">
         <div class="container-fluid">
             <div>
                 <h1 class="display-1">Hey, I'm Arnav</h1>
@@ -48,17 +48,6 @@
                 <a href="#projects" class="btn btn-primary btn-lg">Projects</a>
             </div>
         </div>
-    </section>
-
-    <!-- About area -->
-    <section class="content my-5 mx-2" id="about">
-        <p class="card-title text-center display-2">Who am I? </p>
-        <p class="card-body ">Hi there! I'm Arnav Sharma, a British Asian student studying Software Engineering 
-            at the renowned University of Portsmouth. From a very young age, I've had a deep passion for all things technology. 
-            Over the years, I've honed my skills through various experiences, including my first job repairing computers and 
-            electronic devices for two years. Now, as I pursue my academic journey, I strive to push myself to become a 
-            Full Stack Developer/Software Engineer, with the ultimate goal of making a significant impact in the tech industry.
-        </p>
     </section>
 
     <!-- Project area -->
@@ -90,37 +79,6 @@
             <!-- Active Projects -->
             <div class="col-sm-6">
                 <p class="display-4 text-center">Active Projects</p>
-
-                <!-- Project 1 -->
-                <div class="card projectCard mb-2">
-                    <div class="card-body">
-                        <p class="display-4 text-center">Spicy Project #1</p>
-                        <img src="images/underconstruction.webp" class="rounded mt-5" alt="virtual pet picture">
-                        <p class="display-6 mt-5 mb-0">Description</p>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Atque ad necessitatibus expedita autem repellat omnis incidunt, 
-                            quis temporibus mollitia nisi. Explicabo voluptas ullam deserunt quam cum ea voluptatem fuga hic.
-                        </p>    
-                        <a type="button" href="#home" class="btn btn-secondary">GitHub</a>
-                    </div>
-                </div>
-                <!-- Project 1 -->
-
-                <!-- Project 1 -->
-                <div class="card projectCard mb-2">
-                    <div class="card-body">
-                        <p class="display-4 text-center">Spicy project #2</p>
-                        <img src="images/underconstruction.webp" class="rounded mt-5" alt="virtual pet picture">
-                        <p class="display-6 mt-5 mb-0">Description</p>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Atque ad necessitatibus expedita autem repellat omnis incidunt, 
-                            quis temporibus mollitia nisi. Explicabo voluptas ullam deserunt quam cum ea voluptatem fuga hic.
-                        </p>    
-                        <a type="button" href="#home" class="btn btn-secondary">GitHub</a>
-                    </div>
-                </div>
-                <!-- Project 1 -->
-
             </div>
         </div>
     </section>

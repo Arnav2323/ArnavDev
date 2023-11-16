@@ -5,6 +5,7 @@ const buttons = {
 
 function eventListeners(){
     console.log("Index.js Loaded");
+    
 }
 
 
